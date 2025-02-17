@@ -6,10 +6,10 @@
 
 ### 📞 Contact Us
 
-- **Address**: *[Coming Soon]*  
+- **Address**: *[Bårarp ängen 28]*  
 - **Phone**: [0702-732841]  
 - **Email**: [Oskar@bararpsbygg.se]  
-- **Website**: *[Coming Soon]*  
+- **Website**: *[https://bararpsbygg.se/]*  
 
 To install the package, simply run the following command:
 ```bash
