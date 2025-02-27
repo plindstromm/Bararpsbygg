@@ -28,6 +28,9 @@
 
   &__wrap {
     display: flex;
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto 0 auto;
   }
 
   &__text {

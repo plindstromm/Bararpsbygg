@@ -8,6 +8,7 @@ import Banner from "../../components/Banner";
 import Contact from "../../components/Contact";
 import Message from "../../components/Message";
 import Footer from "../../components/Footer";
+import Cookies from "../../components/Cookies";
 
 function Main() {
   const contactRef = useRef<HTMLDivElement | null>(null); 
@@ -70,6 +71,7 @@ function Main() {
       <div className="footers">
         <Footer />
       </div>
+      <Cookies />
     </div>
   );
 }

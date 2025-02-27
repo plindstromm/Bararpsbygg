@@ -1,0 +1,60 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    background: #121212;
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .cookie-title {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .cookie-text {
+    margin: 10px 0 15px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .cookie-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .accept,
+  .reject {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .accept {
+    background: #14b8a6;
+    color: #fff;
+    border: none;
+  }
+  
+  .reject {
+    background: #222;
+    color: #66c2ff;
+    border: 1px solid #333;
+  }
+  
+  .accept:hover,
+  .reject:hover {
+    opacity: 0.8;
+  }
+  

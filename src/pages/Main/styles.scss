@@ -5,6 +5,9 @@
 
 .main {
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .top {
@@ -21,7 +24,6 @@
 
 .info {
   padding: 20px;
-
   display: flex;
   justify-content: center;
   align-items: center;
