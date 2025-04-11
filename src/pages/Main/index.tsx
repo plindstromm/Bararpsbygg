@@ -11,7 +11,7 @@ import Footer from "../../components/Footer";
 import Cookies from "../../components/Cookies";
 
 function Main() {
-  const contactRef = useRef<HTMLDivElement | null>(null); 
+  const contactRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     // Dynamically load the LightWidget script
@@ -44,12 +44,13 @@ function Main() {
           className="instagram-feed"
           dangerouslySetInnerHTML={{
             __html: `<iframe
-              src="https://cdn.lightwidget.com/widgets/21ec8d77755a5a02a14a6cf88795f725.html"
-              scrolling="no"
-              allowtransparency="true"
-              class="lightwidget-widget"
-              style="width: 100%; border: 0; overflow: hidden; height: 500px;">
-            </iframe>`,
+        src="https://cdn.lightwidget.com/widgets/21ec8d77755a5a02a14a6cf88795f725.html"
+        scrolling="no"
+        allowtransparency="true"
+        title="Instagramflöde"
+        class="lightwidget-widget"
+        style="width: 100%; border: 0; overflow: hidden; height: 500px;">
+      </iframe>`,
           }}
         />
       </div>
