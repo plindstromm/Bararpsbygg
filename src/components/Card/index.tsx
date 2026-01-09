@@ -14,6 +14,7 @@ function Card() {
             backgroundPosition: "center",
           }}
         >
+          
           <p className="card__text">INOMHUS</p>
         </div>
         <div className="card__right">
