@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Cookies from "js-cookie";
-import "./styles.scss"; // Import the SCSS file
+import "./styles.scss"; 
 
 const CookieBanner = () => {
   const [isAccepted, setIsAccepted] = useState(
